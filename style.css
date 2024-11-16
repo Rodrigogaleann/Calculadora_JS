@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./imagenes/Leonardo_Phoenix_A_vibrant_green_chalkboard_serves_as_the_back_3.jpg);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-top: 10px;
+    color: #2c2b2b;
+  }
+  
+  .calculadora {
+    width: 314px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #pantalla {
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+  
+  input[type="button"] {
+    width: 70px;
+    height: 40px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #ddd;
+  }
+  
+  input[type="button"]:last-child {
+    margin-right: 0;
+  }
+  
+  
+  @media (max-width: 320px){
+      .calculadora{
+        
+         width: 200px;
+         padding: 10px;
+         margin: 0 auto;
+         
+      }
+      
+      input[type="button"] {
+        
+       
+        width: 45px;
+        height: 25px;
+        margin-right: 2px;
+        margin-bottom: 2px;
+        font-size: 10px;
+        margin-right: 0;
+      }
+  
+  }
