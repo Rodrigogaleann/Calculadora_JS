@@ -1,3 +1,3 @@
 # Calculadora 
 
-Calculadora echa con JS, CSS y HTML.
+Calculadora hecha con JS, CSS y HTML.
